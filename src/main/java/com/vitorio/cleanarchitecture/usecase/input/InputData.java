@@ -1,4 +1,4 @@
-package com.vitorio.cleanarchitecture.usecase.data;
+package com.vitorio.cleanarchitecture.usecase.input;
 
 import com.vitorio.cleanarchitecture.common.domain.CompanyType;
 

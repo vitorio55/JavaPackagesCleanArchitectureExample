@@ -1,9 +1,9 @@
 package com.vitorio.cleanarchitecture.usecase;
 
 import com.vitorio.cleanarchitecture.domain.CompanyCalculations;
-import com.vitorio.cleanarchitecture.usecase.boundary.InputBoundary;
-import com.vitorio.cleanarchitecture.usecase.boundary.OutputBoundary;
-import com.vitorio.cleanarchitecture.usecase.data.OutputData;
+import com.vitorio.cleanarchitecture.usecase.input.InputBoundary;
+import com.vitorio.cleanarchitecture.usecase.output.OutputBoundary;
+import com.vitorio.cleanarchitecture.usecase.output.OutputData;
 import com.vitorio.cleanarchitecture.usecase.persistence.DataAccessInterface;
 
 public class CalculateCompanyUseCase implements InputBoundary {

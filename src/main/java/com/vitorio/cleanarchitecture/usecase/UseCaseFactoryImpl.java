@@ -3,9 +3,9 @@ package com.vitorio.cleanarchitecture.usecase;
 import com.vitorio.cleanarchitecture.common.usecase.UseCase;
 import com.vitorio.cleanarchitecture.domain.CompanyCalculations;
 import com.vitorio.cleanarchitecture.domain.CompanyCalculationsFactory;
-import com.vitorio.cleanarchitecture.usecase.boundary.InputBoundary;
-import com.vitorio.cleanarchitecture.usecase.boundary.OutputBoundary;
-import com.vitorio.cleanarchitecture.usecase.data.InputData;
+import com.vitorio.cleanarchitecture.usecase.input.InputBoundary;
+import com.vitorio.cleanarchitecture.usecase.output.OutputBoundary;
+import com.vitorio.cleanarchitecture.usecase.input.InputData;
 import com.vitorio.cleanarchitecture.usecase.persistence.DataAccessInterface;
 
 public class UseCaseFactoryImpl implements UseCaseFactory {

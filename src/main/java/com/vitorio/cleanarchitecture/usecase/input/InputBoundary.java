@@ -1,4 +1,4 @@
-package com.vitorio.cleanarchitecture.usecase.boundary;
+package com.vitorio.cleanarchitecture.usecase.input;
 
 public interface InputBoundary {
     int interact();

@@ -3,7 +3,7 @@ package com.vitorio.cleanarchitecture.infrastructure.messagequeue;
 import com.vitorio.cleanarchitecture.common.domain.CompanyType;
 import com.vitorio.cleanarchitecture.common.usecase.UseCase;
 import com.vitorio.cleanarchitecture.usecase.UseCaseFactory;
-import com.vitorio.cleanarchitecture.usecase.data.InputData;
+import com.vitorio.cleanarchitecture.usecase.input.InputData;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

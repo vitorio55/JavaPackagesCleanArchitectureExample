@@ -3,7 +3,7 @@ package com.vitorio.cleanarchitecture.presentation;
 import com.vitorio.cleanarchitecture.common.usecase.UseCase;
 import com.vitorio.cleanarchitecture.presentation.dto.CalculateCompanyDto;
 import com.vitorio.cleanarchitecture.usecase.UseCaseFactory;
-import com.vitorio.cleanarchitecture.usecase.data.InputData;
+import com.vitorio.cleanarchitecture.usecase.input.InputData;
 
 public class CompanyControllerLogicImpl implements CompanyControllerLogic {
 
